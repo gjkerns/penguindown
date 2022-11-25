@@ -1,8 +1,7 @@
 Package: penguindown
 Title: An updated R Markdown YSU thesis template based on the thesisdown package
 Version: 0.1.0
-Authors@R: c(
-    person("G. Jay", "Kerns", email = "gkerns@ysu.edu", role = c("cre", "aut")),
+Authors@R: person("G. Jay", "Kerns", email = "gkerns@ysu.edu", role = c("cre", "aut"))
 Description: Using the thesisdown package and LaTeX and Word thesis templates from
     Youngstown State University, this package aims to encourage reproducible research using
     simple Markdown syntax while embedding all of the R code to produce plots
