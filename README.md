@@ -22,13 +22,13 @@ If you are new to working with `bookdown`/`rmarkdown`, please read over
 the documentation available in the `gitbook` template at
 <https://ismayc.github.io/thesisdown_book>.
 
-The current output for the four versions is here:
+The current output is here:
 
-- [PDF](https://github.com/ismayc/thesisdown_book/blob/master/thesis.pdf)
+- [PDF](https://github.com/gjkerns/penguindown_book/blob/main/thesis.pdf)
   (Generating LaTeX file is available
-  [here](https://github.com/ismayc/thesisdown_book/blob/master/thesis.tex)
+  [here](https://github.com/gjkerns/penguindown_book/blob/main/_book/thesis.tex)
   with other files in the [book
-  directory](https://github.com/ismayc/thesisdown_book/tree/master).)
+  directory](https://github.com/gjkerns/penguindown_book/tree/main/_bookdown_files).)
 
 Under the hood, the YSU LaTeX template is used to ensure that documents
 conform precisely to submission standards. At the same time, composition
