@@ -63,19 +63,19 @@ To use {penguindown} from [RStudio](https://www.rstudio.com/products/rstudio/dow
 
   In RStudio, click on **File** > **New Project** > 
 **New Directory**. Then select 
-**Thesis Project using penguindown** from the dropdown that
+**Thesis Project (YSU) using penguindown** from the dropdown that
 will look something like the image below. You'll see the
 graduation cap as the icon on the left for the appropriate
 project type.  Don't select the {thesisdown} version unless you are a student at Reed College.
 
-  ![](https://raw.githubusercontent.com/gjkerns/penguindown/master/docs/reference/figures/thesis_proj.png)
+  ![](https://github.com/gjkerns/penguindown/raw/11d694fe37f4f0aa0e83663c9a03c058df375801/images/thesis_proj.png)
 
   Next, give your project a name and specify where you'd like
 the files to appear. In the screenshot below, the project
 name is `my_thesis` and it will appear as a new folder
 on my Desktop.
 
-  ![](https://raw.githubusercontent.com/gjkerns/penguindown/master/docs/reference/figures/thesis_proj_name.png)
+  ![](https://raw.githubusercontent.com/gjkerns/penguindown/master/images/thesis_proj_name.png)
 
 
 4. After choosing which type of output you'd like in the YAML at the top of `index.Rmd`, **Knit** the `index.Rmd` file to get the book in PDF format.
