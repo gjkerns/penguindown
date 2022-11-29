@@ -1,7 +1,13 @@
 #' Creates an R Markdown PDF Thesis document
 #'
 #' This is a function called in output in the YAML of the driver Rmd file
-#' to specify using the Reed College Senior Thesis LaTeX template and cls files.
+#' to specify using the YSU LaTeX template and cls files.
+#' @importFrom bookdown pdf_book
+#' @importFrom ggplot2 ggplot
+#' @importFrom dplyr select
+#' @importFrom dplyr group_by
+#' @importFrom dplyr summarize
+#' @importFrom knitr kable
 #'
 #' @export
 #'
@@ -12,6 +18,7 @@
 #' @param highlight Syntax highlighting style. Supported styles include
 #' "default", "tango", "pygments", "kate", "monochrome", "espresso", "zenburn",
 #' and "haddock". Pass NULL to prevent syntax highlighting.
+#' @param pandoc_args Used for arguments to pandoc
 #'
 #' @return A modified \code{pdf_document} based on the Reed Senior Thesis LaTeX
 #'   template
@@ -106,6 +113,7 @@ thesis_gitbook <- function(...) {
 #'
 #' @param ... Further arguments passed to or from other methods.
 #'
+#' @importFrom bookdown word_document2
 #' @export
 #' @return A Word Document based on (hopefully soon, but not currently)
 #' the Reed Senior Thesis Word template
@@ -129,7 +137,8 @@ thesis_word <- function(...) {
 #' to specify the creation of a epub version of the thesis.
 #'
 #' @param ... Further arguments passed to or from other methods.
-#'
+#' @importFrom here here
+#' @importFrom bookdown epub_book
 #' @export
 #' @return A ebook version of the thesis
 #' @examples
